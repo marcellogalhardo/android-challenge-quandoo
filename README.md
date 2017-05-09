@@ -2,7 +2,7 @@
 
 # Quandoo android challenge
 
-You can download the APK [here]() or see the images [here](/design).
+You can download the APK [here](https://github.com/marcellogalhardo/quandoo/releases/download/0.1/quandoo_01.apk) or see the images [here](/design).
 
 ## Task
 
