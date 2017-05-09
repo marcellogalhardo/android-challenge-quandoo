@@ -1,4 +1,4 @@
-![Logo](https://github.com/marcellogalhardo/quandoo/blob/master/design/icon.png)
+<img src="https://github.com/marcellogalhardo/quandoo/blob/master/design/icon.png">
 
 # Quandoo android challenge
 
@@ -63,13 +63,12 @@ The tables are represented as one-dimensional array of booleans where “true”
 
 ## UX / UI
 
-![Launch](https://github.com/marcellogalhardo/quandoo/blob/master/design/1_launch.png)
-![CustomerList](https://github.com/marcellogalhardo/quandoo/blob/master/design/2_customer_list.png)
-![CustomerListFiltered](https://github.com/marcellogalhardo/quandoo/blob/master/design/3_customer_list_filtered.png)
-![TableMap](https://github.com/marcellogalhardo/quandoo/blob/master/design/4_table_map.png)
-![DialogPositive](https://github.com/marcellogalhardo/quandoo/blob/master/design/5_dialog_positive.png)
-![DialogNegative](https://github.com/marcellogalhardo/quandoo/blob/master/design/6_dialog_negative.png)
-
+<img src="https://github.com/marcellogalhardo/quandoo/blob/master/design/1_launch.png" width="300">
+<img src="https://github.com/marcellogalhardo/quandoo/blob/master/design/2_customer_list.png" width="300">
+<img src="https://github.com/marcellogalhardo/quandoo/blob/master/design/3_customer_list_filtered.png" width="300">
+<img src="https://github.com/marcellogalhardo/quandoo/blob/master/design/4_table_map.png" width="300">
+<img src="https://github.com/marcellogalhardo/quandoo/blob/master/design/5_dialog_positive.png" width="300">
+<img src="https://github.com/marcellogalhardo/quandoo/blob/master/design/6_dialog_negative.png" width="300">
 
 ## Other code examples
 
