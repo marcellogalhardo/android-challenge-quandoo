@@ -54,12 +54,13 @@ The tables are represented as one-dimensional array of booleans where “true”
 
 ## TODO: Improvements if I've more time
 
-1. Export String resources from Ui.
+1. Support screen rotation.
 2. Better testing coverage.
-3. Refactoring.
-4. Style improvement.
-5. Better git flow / commits.
-6. Better offline strategies (for example: https://github.com/NYTimes/Store).
+3. Export String resources from Ui.
+4. Refactoring.
+5. Style improvement.
+6. Better git flow / commits.
+7. Better offline strategies (for example: https://github.com/NYTimes/Store).
 
 ## UX / UI
 
