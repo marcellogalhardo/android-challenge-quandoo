@@ -54,7 +54,7 @@ The tables are represented as one-dimensional array of booleans where “true”
 
 ## TODO: Improvements if I've more time
 
-1. Support screen rotation.
+1. Support screen rotation / state.
 2. Better testing coverage.
 3. Export String resources from Ui.
 4. Refactoring.
