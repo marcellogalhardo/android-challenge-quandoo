@@ -1,4 +1,4 @@
-![Logo][https://github.com/marcellogalhardo/quandoo/blob/master/design/icon.png]
+![Logo](https://github.com/marcellogalhardo/quandoo/blob/master/design/icon.png)
 
 # Quandoo android challenge
 
@@ -18,24 +18,24 @@ Each customer has First Name, Last Name and Id.
 
 The tables are represented as one-dimensional array of booleans where “true” means that the table is available and “false” that it is not.
 
-* URL to customers list: ​ https://s3-eu-west-1.amazonaws.com/quandoo-assessment/customer-list.json
-* URL to tables list: ​ https://s3-eu-west-1.amazonaws.com/quandoo-assessment/table-map.json
+* [URL to customers list](https://s3-eu-west-1.amazonaws.com/quandoo-assessment/customer-list.json).
+* [URL to tables list] (https://s3-eu-west-1.amazonaws.com/quandoo-assessment/table-map.json).
 
 ## Requirement
 
-1. Tables have to be represented as cells on grid
-2. Available and unavailable tables have to be easily recognized
-3. The app has to also work offline
-4. Search option for customers would be a plus
-5. Any unspecified details are left to your imagination
+1. Tables have to be represented as cells on grid. ✔
+2. Available and unavailable tables have to be easily recognized. ✔
+3. The app has to also work offline. ✔
+4. Search option for customers would be a plus. ✔
+5. Any unspecified details are left to your imagination. ✔
 
 ## What we will review
 
-1. Unit and instrumentation test coverage
-2. Architecture
-3. Code style
-4. Code extensibility
-5. Performance
+1. Unit and instrumentation test coverage.
+2. Architecture.
+3. Code style.
+4. Code extensibility.
+5. Performance.
 
 ## Implementation details
 
@@ -59,13 +59,26 @@ The tables are represented as one-dimensional array of booleans where “true”
 3. Refactoring.
 4. Style improvement.
 5. Better git flow / commits.
+6. Better offline strategies (for example: https://github.com/NYTimes/Store).
 
 ## UX / UI
 
-![Launch][https://github.com/marcellogalhardo/quandoo/blob/master/design/1_launch.png]
-![CustomerList][https://github.com/marcellogalhardo/quandoo/blob/master/design/2_customer_list.png]
-![CustomerListFiltered][https://github.com/marcellogalhardo/quandoo/blob/master/design/3_customer_list_filtered.png]
-![TableMap][https://github.com/marcellogalhardo/quandoo/blob/master/design/4_table_map.png]
-![DialogPositive][https://github.com/marcellogalhardo/quandoo/blob/master/design/5_dialog_positive.png]
-![DialogNegative][https://github.com/marcellogalhardo/quandoo/blob/master/design/6_dialog_negative.png]
+![Launch](https://github.com/marcellogalhardo/quandoo/blob/master/design/1_launch.png)
+![CustomerList](https://github.com/marcellogalhardo/quandoo/blob/master/design/2_customer_list.png)
+![CustomerListFiltered](https://github.com/marcellogalhardo/quandoo/blob/master/design/3_customer_list_filtered.png)
+![TableMap](https://github.com/marcellogalhardo/quandoo/blob/master/design/4_table_map.png)
+![DialogPositive](https://github.com/marcellogalhardo/quandoo/blob/master/design/5_dialog_positive.png)
+![DialogNegative](https://github.com/marcellogalhardo/quandoo/blob/master/design/6_dialog_negative.png)
 
+
+## Other code examples
+
+* [Locations (use Maps)](https://github.com/marcellogalhardo/locations).
+* [Events (use CustomView)](https://github.com/marcellogalhardo/events).
+
+## Contacts
+
+* E-mail: marcello.galhardo@gmail.com
+* [Linkedin](https://www.linkedin.com/in/marcellogalhardo).
+* [Twitter](https://twitter.com/marcellogalhard).
+* [SpeakerDeck](speakerdeck.com/marcellogalhardo).
