@@ -1,0 +1,48 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+    </style>
+
+    <style name="AppTheme.Launch" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimaryDark">#333333</item>
+        <item name="android:windowBackground">@drawable/background_launch</item>
+    </style>
+
+    <style name="AppTheme.Divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/divider</item>
+        <!--<item name="android:color">@color/divider</item>-->
+        <!--<item name="android:background">?android:attr/listDivider</item>-->
+    </style>
+
+    <!-- Home theme. -->
+    <style name="AppTheme.CustomerList" />
+
+    <style name="AppTheme.CustomerList.Name" parent="TextAppearance.AppCompat.Title">
+        <item name="android:textColor">@color/font_title</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="AppTheme.CustomerList.Description" parent="TextAppearance.AppCompat.Body2">
+        <item name="android:textColor">@color/font_description</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="AppTheme.CustomerList.Status" parent="TextAppearance.AppCompat.Caption">
+        <item name="android:textColor">@color/font_open</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <!-- Text Styles -->
+
+</resources>

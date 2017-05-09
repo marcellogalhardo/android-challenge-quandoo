@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="margin_activity">16dp</dimen>
+    <dimen name="margin_default_small">4dp</dimen>
+    <dimen name="margin_default">8dp</dimen>
+    <dimen name="image_view_border_padding">1dp</dimen>
+
+    <!-- Text Sizes -->
+
+    <!-- Elevation -->
+    <dimen name="elevation_tiny">1dp</dimen>
+</resources>

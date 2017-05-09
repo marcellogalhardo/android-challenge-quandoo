@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Quandoo</string>
+    <string name="table_name">Table #%d</string>
+    <string name="table_map_title">Table Map</string>
+    <string name="customer_list_title">Customer List</string>
+    <string name="book_table">Book table #%d?</string>
+    <string name="table_unavailable">Table #%d not available</string>
+</resources>
