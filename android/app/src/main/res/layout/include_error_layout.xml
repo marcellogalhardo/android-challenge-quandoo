@@ -13,12 +13,12 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/margin_default"
         android:gravity="center"
-        android:text="There are no nearby places.\nFlop is a sad pup." />
+        android:text="Something goes wrong." />
 
     <Button
         android:id="@+id/retry_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Please Try Again" />
+        android:text="Retry" />
 
 </LinearLayout>
