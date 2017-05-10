@@ -19,7 +19,7 @@ Each customer has First Name, Last Name and Id.
 The tables are represented as one-dimensional array of booleans where “true” means that the table is available and “false” that it is not.
 
 * [URL to customers list](https://s3-eu-west-1.amazonaws.com/quandoo-assessment/customer-list.json).
-* [URL to tables list] (https://s3-eu-west-1.amazonaws.com/quandoo-assessment/table-map.json).
+* [URL to tables list](https://s3-eu-west-1.amazonaws.com/quandoo-assessment/table-map.json).
 
 ## Requirement
 
