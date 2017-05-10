@@ -60,7 +60,7 @@ public class TableRepository {
                         Boolean reservation = reservations.get(i);
                         Table table = new Table();
                         table.setNumber(i + 1);
-                        table.setReserved(!reservation);
+                        table.setReserved(reservation);
                         tables.add(table);
                     }
                     return tables;
