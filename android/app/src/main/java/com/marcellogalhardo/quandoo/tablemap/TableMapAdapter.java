@@ -46,14 +46,14 @@ public class TableMapAdapter extends RecyclerView.Adapter<TableMapAdapter.ViewHo
         holder.table.setText(resources.getString(R.string.table_name, table.getNumber()));
 
         Context context = holder.view.getContext();
-        if (table.isReserved()) {
-            holder.image.setImageDrawable(ContextCompat.getDrawable(context, R.drawable.ic_table_red));
-            holder.status.setText("Reserved");
-            holder.status.setTextColor(ContextCompat.getColor(context, R.color.grapefruit));
-        } else {
+        if (table.isAvailable()) {
             holder.image.setImageDrawable(ContextCompat.getDrawable(context, R.drawable.ic_table_green));
             holder.status.setText("Available");
             holder.status.setTextColor(ContextCompat.getColor(context, R.color.greenish_teal));
+        } else {
+            holder.image.setImageDrawable(ContextCompat.getDrawable(context, R.drawable.ic_table_red));
+            holder.status.setText("Reserved");
+            holder.status.setTextColor(ContextCompat.getColor(context, R.color.grapefruit));
         }
 
         if (onTableClickedListener != null) {

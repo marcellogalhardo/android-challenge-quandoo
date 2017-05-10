@@ -9,7 +9,7 @@ public class Table implements Parcelable {
 
     private Customer customer;
 
-    private Boolean reserved;
+    private Boolean available;
 
     public int getNumber() {
         return number;
@@ -27,12 +27,12 @@ public class Table implements Parcelable {
         this.customer = customer;
     }
 
-    public Boolean isReserved() {
-        return reserved;
+    public Boolean isAvailable() {
+        return available;
     }
 
-    public void setReserved(Boolean reserved) {
-        this.reserved = reserved;
+    public void setAvailable(Boolean available) {
+        this.available = available;
     }
 
     @Override
@@ -44,7 +44,7 @@ public class Table implements Parcelable {
     public void writeToParcel(Parcel dest, int flags) {
         dest.writeInt(this.number);
         dest.writeParcelable(this.customer, flags);
-        dest.writeValue(this.reserved);
+        dest.writeValue(this.available);
     }
 
     public Table() {
@@ -53,7 +53,7 @@ public class Table implements Parcelable {
     protected Table(Parcel in) {
         this.number = in.readInt();
         this.customer = in.readParcelable(Customer.class.getClassLoader());
-        this.reserved = (Boolean) in.readValue(Boolean.class.getClassLoader());
+        this.available = (Boolean) in.readValue(Boolean.class.getClassLoader());
     }
 
     public static final Creator<Table> CREATOR = new Creator<Table>() {

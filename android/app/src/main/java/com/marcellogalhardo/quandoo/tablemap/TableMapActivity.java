@@ -153,11 +153,11 @@ public class TableMapActivity extends BaseActivity implements TableMapContract.V
         tableMapAdapter = new TableMapAdapter();
         tableMapAdapter.setOnTableClickedListener((position, table) -> {
             TableMapActivity activity = TableMapActivity.this;
-            if (table.isReserved()) {
+            if (table.isAvailable()) {
                 TableMapDialog.showUnavailableDialog(activity, table);
             } else {
                 TableMapDialog.showAvailableDialog(activity, table, (dialogInterface, i) -> {
-                    table.setReserved(true);
+                    table.setAvailable(true);
                     table.setCustomer(customer);
                     tableMapPresenter.updateTables(tableMapAdapter.getTables());
                 });
