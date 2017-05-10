@@ -49,6 +49,7 @@ The tables are represented as one-dimensional array of booleans where “true”
 8. It has some unit testing with JUnit and Mockito (see test folder).
 9. It has some Ui tests with Espresso (see androidTest folder).
 10. It use Hawk to cache (work offline).
+11. It use GcmNetworkManager (see TableMapTaskService) to remove reservation every 10 minutes (even if the application was closed).
 
 **Important:** Unit and Ui tests **must run with Mock flavor**.
 
