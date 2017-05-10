@@ -43,11 +43,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TableRepository.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TableRepository.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcellogalhardo/quandoo/data/store/TableRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="65" column="34" selection-start-line="65" selection-start-column="34" selection-end-line="65" selection-end-column="34" />
+            <state relative-caret-position="627">
+              <caret line="64" column="21" selection-start-line="64" selection-start-column="21" selection-end-line="64" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TableMapActivity.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcellogalhardo/quandoo/tablemap/TableMapActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="162" column="70" selection-start-line="162" selection-start-column="70" selection-end-line="162" selection-end-column="70" />
               <folding />
             </state>
           </provider>
@@ -62,16 +72,6 @@
                 <element signature="e#644#645#0" expanded="true" />
                 <element signature="e#686#687#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TableMapAdapter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcellogalhardo/quandoo/tablemap/TableMapAdapter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="52" column="16" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -2726,6 +2726,7 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/marcellogalhardo/quandoo/data/store/TableRepository.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/marcellogalhardo/quandoo/data/Table.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/marcellogalhardo/quandoo/tablemap/TableMapAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/marcellogalhardo/quandoo/tablemap/TableMapActivity.java" />
       </list>
     </option>
   </component>
@@ -3318,14 +3319,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/marcellogalhardo/quandoo/data/store/TableRepository.java</url>
-          <line>65</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
@@ -3353,6 +3346,14 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcellogalhardo/quandoo/tablemap/TableMapAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="86" column="13" selection-start-line="86" selection-start-column="13" selection-end-line="86" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcellogalhardo/quandoo/data/Table.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -3364,18 +3365,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcellogalhardo/quandoo/tablemap/TableMapAdapter.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcellogalhardo/quandoo/data/store/TableRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="52" column="16" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
+        <state relative-caret-position="627">
+          <caret line="64" column="21" selection-start-line="64" selection-start-column="21" selection-end-line="64" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcellogalhardo/quandoo/data/store/TableRepository.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/marcellogalhardo/quandoo/tablemap/TableMapActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="65" column="34" selection-start-line="65" selection-start-column="34" selection-end-line="65" selection-end-column="34" />
+        <state relative-caret-position="234">
+          <caret line="162" column="70" selection-start-line="162" selection-start-column="70" selection-end-line="162" selection-end-column="70" />
           <folding />
         </state>
       </provider>
