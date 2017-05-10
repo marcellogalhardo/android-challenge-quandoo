@@ -53,7 +53,7 @@ The tables are represented as one-dimensional array of booleans where “true”
 
 **Important:** Unit and Ui tests **must run with Mock flavor**.
 
-## TODO: Improvements if I've more time
+## TODO: Improvements if I have more time
 
 1. Support screen rotation / state.
 2. Better testing coverage.
